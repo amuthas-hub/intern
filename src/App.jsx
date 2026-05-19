@@ -25,8 +25,7 @@ function App() {
     {
       title: "AC Technician",
       description: "AC installation and maintenance services.",
-      image:
-        "https://images.unsplash.com/photo-1581093458791-9d42e0f6f0c1?auto=format&fit=crop&w=800&q=80",
+     image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
     },
   ];
 
