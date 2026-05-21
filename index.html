@@ -1,13 +1,146 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>smart-serve</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartServe</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h1>SmartServe</h1>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#providers">Providers</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <h2>Find Trusted Local Service Providers</h2>
+
+        <p>
+            SmartServe connects customers with verified electricians,
+            plumbers, cleaners, mechanics, and technicians near them.
+        </p>
+
+        <button>Book Service</button>
+
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+
+        <h2>About SmartServe</h2>
+
+        <p>
+            SmartServe is a MERN stack-based local service finder platform
+            that helps users discover trusted service providers quickly and easily.
+        </p>
+
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+
+        <h2>Popular Services</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?q=80&w=1000&auto=format&fit=crop"
+                    alt="Electrician">
+
+                <h3>Electrician</h3>
+
+                <p>Professional electrical repair and installation services.</p>
+
+                <button>View Details</button>
+
+            </div>
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1000&auto=format&fit=crop"
+                    alt="Cleaner">
+
+                <h3>Home Cleaning</h3>
+
+                <p>Trusted cleaning experts for homes and offices.</p>
+
+                <button>View Details</button>
+
+            </div>
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?q=80&w=1000&auto=format&fit=crop"
+                    alt="Plumber">
+
+                <h3>Plumber</h3>
+
+                <p>Fast and reliable plumbing maintenance services.</p>
+
+                <button>View Details</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Provider Section -->
+    <section class="providers" id="providers">
+
+        <h2>Why Choose SmartServe?</h2>
+
+        <ul>
+            <li>Verified Service Providers</li>
+            <li>Easy Online Booking</li>
+            <li>Ratings and Reviews</li>
+            <li>Real-Time Notifications</li>
+            <li>Secure Authentication</li>
+        </ul>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+
+        <h2>Contact Us</h2>
+
+        <form>
+
+            <input type="text" placeholder="Enter your name">
+
+            <input type="email" placeholder="Enter your email">
+
+            <textarea placeholder="Enter your message"></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>© 2026 SmartServe | Developed by Amutha</p>
+
+    </footer>
+
+</body>
+
 </html>
