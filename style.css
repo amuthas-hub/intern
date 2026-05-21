@@ -1,0 +1,135 @@
+/* Body Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Navbar */
+nav {
+    background-color: #ff5722;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    color: white;
+}
+
+.hero button {
+    padding: 12px 25px;
+    border: none;
+    background-color: white;
+    color: #ff5722;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Menu Section */
+.menu {
+    padding: 40px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Offers */
+.offers {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.offers button {
+    padding: 12px 20px;
+    border: none;
+    background-color: orange;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Contact */
+.contact {
+    padding: 40px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    gap: 15px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
